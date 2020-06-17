@@ -1,0 +1,16 @@
+C:\dev-personal\Patterns\FactoryPattern_DI\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\dev-personal\Patterns\FactoryPattern_DI\bin\Debug\netcoreapp2.2\appsettings.json
+C:\dev-personal\Patterns\FactoryPattern_DI\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\dev-personal\Patterns\FactoryPattern_DI\bin\Debug\netcoreapp2.2\FactoryPattern_DI.deps.json
+C:\dev-personal\Patterns\FactoryPattern_DI\bin\Debug\netcoreapp2.2\FactoryPattern_DI.runtimeconfig.json
+C:\dev-personal\Patterns\FactoryPattern_DI\bin\Debug\netcoreapp2.2\FactoryPattern_DI.runtimeconfig.dev.json
+C:\dev-personal\Patterns\FactoryPattern_DI\bin\Debug\netcoreapp2.2\FactoryPattern_DI.dll
+C:\dev-personal\Patterns\FactoryPattern_DI\bin\Debug\netcoreapp2.2\FactoryPattern_DI.pdb
+C:\dev-personal\Patterns\FactoryPattern_DI\obj\Debug\netcoreapp2.2\FactoryPattern_DI.csprojAssemblyReference.cache
+C:\dev-personal\Patterns\FactoryPattern_DI\obj\Debug\netcoreapp2.2\FactoryPattern_DI.RazorAssemblyInfo.cache
+C:\dev-personal\Patterns\FactoryPattern_DI\obj\Debug\netcoreapp2.2\FactoryPattern_DI.RazorAssemblyInfo.cs
+C:\dev-personal\Patterns\FactoryPattern_DI\obj\Debug\netcoreapp2.2\FactoryPattern_DI.AssemblyInfoInputs.cache
+C:\dev-personal\Patterns\FactoryPattern_DI\obj\Debug\netcoreapp2.2\FactoryPattern_DI.AssemblyInfo.cs
+C:\dev-personal\Patterns\FactoryPattern_DI\obj\Debug\netcoreapp2.2\FactoryPattern_DI.RazorTargetAssemblyInfo.cache
+C:\dev-personal\Patterns\FactoryPattern_DI\obj\Debug\netcoreapp2.2\FactoryPattern_DI.dll
+C:\dev-personal\Patterns\FactoryPattern_DI\obj\Debug\netcoreapp2.2\FactoryPattern_DI.pdb
