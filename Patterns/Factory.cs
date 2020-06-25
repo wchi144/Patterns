@@ -4,10 +4,10 @@ namespace FactoryPattern
 {
     public class Factory : IFactory
     {
-        private readonly Func<ClientBankConnection> _createBankConnection;
-        private readonly Func<ClientBasicRecord> _createBasic;
+        private readonly ClientBankConnection _createBankConnection;
+        private readonly ClientBasicRecord _createBasic;
 
-        public Factory(Func<ClientBankConnection> createIdentityAuth, Func<ClientBasicRecord> createIdAuth)
+        public Factory(ClientBankConnection createIdentityAuth, ClientBasicRecord createIdAuth)
         {
             _createBankConnection = createIdentityAuth;
             _createBasic = createIdAuth;
@@ -20,9 +20,9 @@ namespace FactoryPattern
             switch (type)
             {
                 case RecodeType.BankConnection:
-                    return _createBankConnection();
+                    return _createBankConnection;
                 case RecodeType.Basic:
-                    return _createBasic();
+                    return _createBasic;
                 default:
                     throw new NotImplementedException($"{type} auth is not implemented");
             }

@@ -23,6 +23,7 @@ namespace FactoryPattern_DI.Controllers
         public ActionResult<string> Get(int id)
         {
             Console.WriteLine("Hello World!");
+            //InvalidOperationException: Unable to resolve service for type 'System.Func`1[FactoryPattern.ClientBankConnection]' while attempting to activate 'FactoryPattern.Factory'.
             var recordProcessor = _factory.GetRecord(RecodeType.BankConnection);
 
             return $"It's time for {recordProcessor.GetRecord()}'";

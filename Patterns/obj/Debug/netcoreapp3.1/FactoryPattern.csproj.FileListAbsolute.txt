@@ -8,3 +8,4 @@ C:\dev-personal\Patterns\Patterns\bin\Debug\netcoreapp3.1\FactoryPattern.dll
 C:\dev-personal\Patterns\Patterns\bin\Debug\netcoreapp3.1\FactoryPattern.pdb
 C:\dev-personal\Patterns\Patterns\obj\Debug\netcoreapp3.1\FactoryPattern.dll
 C:\dev-personal\Patterns\Patterns\obj\Debug\netcoreapp3.1\FactoryPattern.pdb
+C:\dev-personal\Patterns\Patterns\obj\Debug\netcoreapp3.1\FactoryPattern.csprojAssemblyReference.cache

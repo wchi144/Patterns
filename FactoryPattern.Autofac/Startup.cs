@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using FactoryPattern;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -12,7 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace FactoryPattern_DI
+namespace FactoryPattern.Autofac
 {
     public class Startup
     {
@@ -26,14 +25,7 @@ namespace FactoryPattern_DI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvcCore(option =>
-            {
-                option.EnableEndpointRouting = false;
-
-            }).SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
-            services.AddSingleton<IClientRecord>(x => ActivatorUtilities.CreateInstance<ClientBankConnection>(x));
-            services.AddSingleton<IClientRecord>(x => ActivatorUtilities.CreateInstance<ClientBasicRecord>(x));
-            services.AddSingleton<IFactory, Factory>();
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
